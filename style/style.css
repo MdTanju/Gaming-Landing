@@ -1,0 +1,141 @@
+header{
+    padding: 50px; 
+}
+  
+nav{
+
+    width: 100%;
+    height: 100px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(244, 250, 255);
+}
+
+.logo {
+    margin-left: 100px;
+    font-size: 30px;
+    text-transform: capitalize;
+
+
+}
+.logo img {
+    width: 50px;
+ 
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu li {
+    margin-right: 15px;
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #1c1818;
+
+}
+/* -------------------section 1 star---------------*/
+.section1 {
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("../images/backgroundimg.png");
+   background-size: 50%;
+   background-position: left;
+   background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1text ,.section1img {
+    width: 50%;
+
+}
+   /*------text part-------*/
+.section1text{
+    margin-left:150px ;
+    margin-bottom: 50px;
+   
+}
+.section1text .section1p {
+        font-size: 24px;
+        color: #0B0223;
+        text-transform: capitalize;
+}
+.section1text .section1heading{
+    font-size: 3rem;
+    color:rgba(249, 72, 178, 1);
+    text-transform: uppercase;
+}
+.section1text .title {
+    font-size: 19px;
+    text-transform: capitalize;
+} 
+   /*------input part -------*/
+.section1input2 {
+      width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    background-color:rgba(249, 72, 178, 1); ;
+
+}
+.section1input1 {
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    background-color:#4EC5F7;
+    font-size: 1rem;
+    padding: 5px;
+    margin-left: 10px;
+    text-transform: capitalize;
+} 
+   /*------img part -------*/
+.section1img {
+    padding-right: 90px;
+}
+.section1img  img{
+    width: 100%;
+    height: auto;}
+       /*---------------section 1 end -----------*/
+
+
+
+
+
+
+
+
+
+
+
+    /*------media -------*/
+    @media screen  and (max-width:576px){
+        
+        .section1 {
+            flex-direction: column;
+        }
+        .section1 {
+            width: 100%;
+            margin-bottom: 50px;
+            margin-left: 20px;}
+
+        .section1text {
+            margin-left: 20px;
+            width: 100%;
+           
+        }
+        .section1img {
+            width: 90%;
+            margin: 0 auto;
+            margin-left: 20px;
+            
+        }
+    }
