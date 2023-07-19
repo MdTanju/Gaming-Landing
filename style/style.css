@@ -152,6 +152,10 @@ nav .span {
             height: auto;
         }
 
+ /*---------------section 2  end -----------*/
+
+
+ /*---------------section 3 start -----------*/
 
 
 
@@ -159,8 +163,7 @@ nav .span {
 
 
 
-
-
+ /*---------------section 3  end-----------*/
 
 
 
@@ -221,16 +224,16 @@ nav .span {
     /*------media -------*/
     @media screen  and (max-width:576px){
         
-        .section1 ,
-        .section2 ,
-        nav
+        .section1 ,nav ,
+        .section2 
         {
             flex-direction: column;
         }
 
         /*------navber start----*/
         .logo {
-           margin-left: 30px;
+          margin-right: 170px;
+          align-items: center;
            margin-top: 50px;
         }
       
