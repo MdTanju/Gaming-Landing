@@ -10,7 +10,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(244, 250, 255);
 }
 
 .logo {
@@ -68,6 +67,8 @@ nav{
 }
 .section1text .section1heading{
     font-size: 3rem;
+    margin-top: -20px;
+    margin-bottom: -20px;
     color:rgba(249, 72, 178, 1);
     text-transform: uppercase;
 }
@@ -116,6 +117,67 @@ nav{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*------media -------*/
     @media screen  and (max-width:576px){
         
@@ -124,15 +186,21 @@ nav{
         {
             flex-direction: column;
         }
-        nav {
+        .logo {
+            padding: 0px;
+        }
+        header {
             width: 100%;
             height: auto;
+            padding: 0;
             margin-left: 20px;
+            margin-bottom: 50px;
         }
         .section1 {
             width: 100%;
             margin-bottom: 50px;
             margin-left: 20px;}
+           
 
         .section1text {
             margin-left: 20px;
