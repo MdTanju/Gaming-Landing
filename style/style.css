@@ -307,9 +307,7 @@ nav{
     display: flex;
     
   }
-  .services .div1{
-    margin-left: -50px;
-  }
+
 
 .services ul ol{
     font-size: 16px;
@@ -400,10 +398,14 @@ nav{
     /*------media -------*/
     @media screen  and (max-width:576px){
         
-        .section1 ,nav ,.section4 ,.skills
+        .section1 ,nav ,.section4 ,.skills  ,  .services ul 
+        ,.terms-setting ul 
         
         {
             flex-direction: column;
+        }
+        .services {
+            width: 100%;
         }
         .section2 {
             flex-direction: column-reverse;
@@ -488,6 +490,7 @@ nav{
  /*----------section  3 end ------*/
   /*----------section  4 start------*/
   .section4 {
+    width: 100%;
     height: auto;
     margin-left: 20px;
   }
@@ -515,5 +518,15 @@ nav{
     margin-left: 35px;
   }
 
-   /*----------section  2 end ------*/
+   /*----------section  4 end ------*/
+   /*----------section  footer  ------*/
+   footer {
+    width: 100%;
+    margin: 20px;
+    height: auto;
+   }
+   footer .logopart  {
+    p
+   }
+  
     }
