@@ -254,13 +254,92 @@ nav{
     font-size: 18px;
     text-align-last: right;
  }
+ input {
+    width: 170px;
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 14px;
+    color: rgb(242, 5, 143) ;
+    ;
+ }
 /* section 4 imgsection4*/
 .imgsection4 img{
     width: 100%;
-    height: 600px;
+    height: auto;
     margin-right: 30px;
-
 }
+
+
+    /*---------------section 4---  end-----------*/
+
+    /*---------------section footer---------*/
+
+    footer {
+        width: 100%;
+        height: 300px;
+        color: aliceblue;
+        background-color: #0B0223;
+    }
+     footer .logopart {
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
+       padding-top: 50px;
+       margin-bottom: 30px;
+        
+        
+     }
+     .services {
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+       
+      
+     }
+  .services ul {
+    display: flex;
+    margin-top: 30px;
+    justify-content:space-around;
+    margin-right: 50px;
+  }   
+  .services div{
+    display: flex;
+    
+  }
+  .services .div1{
+    margin-left: -50px;
+  }
+
+.services ul ol{
+    font-size: 16px;
+}
+.terms-setting ul  {
+    width: 40%; 
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.terms-setting ul ol {
+    font-size: 13px;
+    font-weight: bold;
+}
+.email {
+   align-items: center;
+   text-align: center;
+   margin-top: 40px;
+   font-size: 13px;
+}
+.footer-logo {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 
 
