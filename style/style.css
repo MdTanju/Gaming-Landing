@@ -328,7 +328,9 @@ nav .menu ul li{
 footer {
     margin-top: 100px;
     width: 100%;
-    background-color: #1c1818;
+    height: auto;
+    margin-bottom: 40px;
+    background-color: white;
     
 }
 .logopart {
@@ -478,7 +480,9 @@ footer .footerlogo  img {
      .skill2{
         text-align-last: left;
      }
- }
+     .footersto{
+        display: block;
+     }
 
   
 /*--1 2 end--*/
